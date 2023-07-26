@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url("cursor.png"), auto;
+}
+
+
+
+.container {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    z-index: 2;
+}
+
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    cursor: url("wing.png"), auto;
+    z-index: 0;
+}
+
+
+.nav {
+    position: fixed;
+    left: -40rem;
+    top: 0;
+    width: 40rem;
+    height: 100vh;
+    color: white;
+    overflow: auto;
+}
+
+#na:checked~.nav {
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20);
+    color: rgb(255, 255, 255, 0.9);
+}
+
+
+.Hnav {
+    padding-left: 1rem;
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12.75px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4);
+    border-bottom: 0.1rem solid rgb(210, 209, 209);
+}
+
+.Hnav img {
+    height: 4.7rem;
+    width: 5rem;
+}
+
+.Hnav a {
+    margin-right: 2.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+.labe {
+    font-size: 12.75px;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+}
+
+#na {
+    display: none;
+}
+
+#la {
+    position: fixed;
+}
+
+.slide {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    scroll-snap-align: start;
+}
+
+
+
+.slide2 {
+    background: black;
+}
+
+.slide3 {
+    background: linear-gradient(454deg, #45b21d, #9553ff);
+}
+
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 187, 187);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
+.sli {
+    background-image: url(ele1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.hea {
+    margin-top: 2rem;
+    width: 90%;
+    height: 50%;
+    font-size: 4rem;
+    text-shadow: 2px 2px black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sli p {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    font-size: 1.15rem;
+    margin-top: 3rem;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.fea {
+    margin-top: 9rem;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.card {
+
+    width: 60vw;
+    height: 90%;
+    background-color: black;
+}
+
+
+.card img {
+    width: 95%;
+    height: 50%;
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+.card-body {
+    border-left: 1px solid white;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+.card img:hover {
+    width: 98%;
+    height: 53%;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.main {
+    display: block;
+}
+
+.enq {}
+
+.fe {
+    background-image: url("seat2.jpeg");
+}
+
+.se {
+    background-image: url("Bin.jpg");
+    background-size: cover;
+}
+
+.se img{
+    width: 50%;
+    height: 60%;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fe{
+    background-image: url("Bin2.jpg");
+    background-size: cover;
+}
+
+.fe img{
+    width: 50%;
+    height: 60%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.in{
+    background-image: url("Bin4.jpg");
+    background-size: cover;
+}
+
+.in img{
+    width: 50%;
+    height: 60%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.las{
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+
+.fse{
+    background-image: url("model.jpg");
+    background-size: cover;
+}
+
+.dat{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+button:hover{
+    border: 0.3rem solid black;
+    color: black;
+}
+
+
+.ing{
+    margin-left: 2rem;
+    padding: 0;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px black;
+}
+
+button {
+    margin-top: 30%;
+    margin-left: 8rem;
+    border: 0.2rem solid white;
+    background-color: transparent;
+    height: 3rem;
+    width: 20rem;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 2rem;
+}
+
+.date{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.sl{
+    width: 100%;
+    height: 15rem;
+    background-color: black;
+    color: rgb(188, 183, 183);
+    display: flex;
+    flex-direction: column;
+}
+
+.sli:hover{
+    color: white;
+}
+
+.foot{
+    margin-top: 0;
+    width: 99%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.tab{
+    width: 90%;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.tab ul{
+    width: 90%;
+}
+
+.tab ul {
+    list-style-type: none;
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4; 
+}
+
+.las{
+    padding-left: rem;
+}
+
+
+a{
+    color: rgb(179, 176, 176);
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+a:hover{
+    color: white;
+    
+}
+
+.first{
+    width: 17rem;
+    position: absolute;
+    left: 36%;
+    top: 40%;
+}
+
+.first p{
+    font-size:4.5rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.first button{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    height: 2.7rem;
+    width: 15rem;
+    border-radius: 20px;
+    border: 0.2rem solid white;
+}
+
+.hov:hover{
+    color: white;
+}
+
+.oki{
+    font-weight: 100;
+}
+
+.first{
+    width: 50%;
+}
+
+.me{
+    margin-left: 1rem;
+}
+
+@media screen {
+    
+}
+
+.nav ul{
+    margin-top: 25%;
+    margin-left: 40%;
+    line-height: 4rem;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+#X{
+    position: relative;
+    top: 2.2rem;
+    margin-top: 10%;
+    margin-left: 3.8%;
+    font-size: 2rem;
+    background-color: black;
+}
+.social{
+    padding: 0.5rem;
+    margin-top: 23%;
+}
+
+.social i{
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: rgb(165, 165, 165);
+}
+
+.ghost{
+    display: none;
+}
+
+i:hover{
+    color: white;
+}
