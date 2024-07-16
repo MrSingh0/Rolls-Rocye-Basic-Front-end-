@@ -1,8 +1,5 @@
 # Rolls-Rocye-Basic-Front-end-
 
-There 2-files with name "scroll" one of them is scroll.html and another is scroll.css.
-All images and videoes used in webpage are availabe in file.
-
 https://github.com/MrSingh0/Rolls-Rocye-Basic-Front-end-/assets/136845755/63418cc2-3197-49a2-9e91-49171e29190a
 
 ![Screenshot (1506)](https://github.com/MrSingh0/Rolls-Rocye-Basic-Front-end-/assets/136845755/33f2444b-b67c-41bb-b0f3-62748746cef8)
